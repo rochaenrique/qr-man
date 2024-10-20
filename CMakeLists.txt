@@ -8,7 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(core)
 
-add_executable(QRMan example/main.cpp)
+add_executable(out example/main.cpp)
 
 target_link_libraries(QRMan PUBLIC QRManCore)
 
