@@ -2,5 +2,5 @@
 
 int main(int argc, char* argv[]) 
 { 
-    QRMan::Image image("test.png");
+    QRMan::Image image("../example/test.png");
 }
