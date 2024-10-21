@@ -13,8 +13,8 @@ add_executable(QRMan example/main.cpp)
 target_link_libraries(QRMan PUBLIC QRManCore)
 
 target_include_directories(QRMan PUBLIC
-                           "${PROJECT_BINARY_DIR}"
-                           "${PROJECT_SOURCE_DIR}/core"
-                           "${PROJECT_SOURCE_DIR}/core/src"
+                            ${CMAKE_SOURCE_DIR}
+                           "${CMAKE_SOURCE_DIR}/core/src"
+                           "${CMAKE_SOURCE_DIR}/core/vendor"
                            )
 
