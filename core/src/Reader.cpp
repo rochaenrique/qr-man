@@ -3,11 +3,9 @@
 
 namespace QRMan
 { 
-    Reader::Reader(int helloTimes) 
+    Reader::Reader() 
     { 
-        while (helloTimes-- > 0) 
-            std::cout  << "Hello " << helloTimes 
-                << " times\n";
+        std::cout << "Created Reader!!! YAYYYYY!!\n";
     }
 
 }
