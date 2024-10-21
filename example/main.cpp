@@ -1,8 +1,6 @@
-#include <iostream>
-#include "Reader.h"
+#include "Image.h"
 
 int main(int argc, char* argv[]) 
 { 
-    QRMan::Reader reader(5);
-    std::cout << "Hello QRMAN example!\n";
+    QRMan::Image image("test.png");
 }
